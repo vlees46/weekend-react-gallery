@@ -66,10 +66,10 @@ li {
     font-family: 'Nanum Pen Script', cursive;
 }
 
-.loveButton {
+.thumbsupbutton {
     cursor: pointer;
 }
 
-.loveButton:hover {
+.thumbsupbutton:hover {
     opacity: 80%;
 }
