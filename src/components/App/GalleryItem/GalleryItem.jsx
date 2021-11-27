@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../GalleryItem/GalleryItem.css';
 
 
-function GalleryItem( photo, addLike){
+function GalleryItem( {photo, addLike}){
 
     let [isClicked, setisClicked] = useState(false);
     let likesDisplay;
