@@ -24,7 +24,6 @@ function GalleryList({ getgalleryArray, getGallery }) {
     } // end PUT function to add a like (working)
 
 
-
 return (
 
     <ul className="list">
