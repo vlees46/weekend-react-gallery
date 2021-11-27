@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import GalleryList from './GalleryList/GalleryList.jsx'
-import Header from './Header/header.jsx'
+import Header from './Header/Header.jsx'
 import axios from 'axios';
 import './App.css';
 
