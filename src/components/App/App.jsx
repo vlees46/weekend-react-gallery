@@ -6,7 +6,7 @@ import './App.css';
 // Import components
 import Header from './header';
 import Gallery from './GalleryList';
-import GalleryList from './GalleryList';
+//import GalleryList from './GalleryList';
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
       console.log('error: ',error);
     });
   }
-  console.log('This is the Gallery path: ', galleryData[0].path);
+  
   return (
     <div className="App">
       <Header />
