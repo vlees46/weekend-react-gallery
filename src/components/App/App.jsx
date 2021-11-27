@@ -14,8 +14,6 @@ function App() {
     getGallery()
   }, []);
 
-
-
   // GET GALLERY request 
   // galleryItems from gallery.router.js is the response
   const getGallery = () => {
