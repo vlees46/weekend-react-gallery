@@ -1,0 +1,75 @@
+li {
+    list-style-type: none;
+    margin-right: 4px;
+    margin-bottom: 7px;
+    margin-left: 4px;
+    
+}
+
+.picture {
+    float: left;
+    border-radius: 11px;
+    border: 3px solid black;
+    text-align: center;
+    width: 220px;
+    height: 256px;
+    align-content: center;
+    border-style: solid;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: -5px; 
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+.image:hover {
+    opacity: 90%;
+    transition-duration: .35s;
+}
+
+.description {
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 204px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    align-content: center;
+    font-size: 25px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#theText {
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.likeSection {
+    margin-top: 2px;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+}
+
+#likesNumber {
+    font-size: 27px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.loveButton {
+    cursor: pointer;
+}
+
+.loveButton:hover {
+    opacity: 80%;
+}
