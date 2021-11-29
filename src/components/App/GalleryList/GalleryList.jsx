@@ -22,7 +22,7 @@ function GalleryList({getgalleryArray, getGallery}) {
             console.log('error in CLIENT-side PUT function:', error)
         })
     } // end PUT function to add a like (working)
-
+ 
 
 return (
 

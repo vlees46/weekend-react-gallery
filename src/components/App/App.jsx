@@ -26,6 +26,7 @@ function App() {
     })
   } // end GET function (to populate photos on dom - working)
 
+  
   return (
 
     <div className="App">
